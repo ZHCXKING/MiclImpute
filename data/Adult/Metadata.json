@@ -1,0 +1,114 @@
+{
+    "name": "Adult",
+    "uci_id": 2,
+    "uci_url": "https://archive.ics.uci.edu/dataset/2",
+    "task": "binary",
+    "description": "人口普查收入预测",
+    "size_category": "large",
+    "n_samples": 48842,
+    "n_samples_complete": 45222,
+    "n_features": 14,
+    "n_categorical": 8,
+    "n_numerical": 6,
+    "n_missing": 6465,
+    "missing_rate": 0.009454684785342825,
+    "missing_cols": 3,
+    "categorical": [
+        "workclass",
+        "education",
+        "marital-status",
+        "occupation",
+        "relationship",
+        "race",
+        "sex",
+        "native-country"
+    ],
+    "categorical_cardinalities": {
+        "workclass": 8,
+        "education": 16,
+        "marital-status": 7,
+        "occupation": 14,
+        "relationship": 6,
+        "race": 5,
+        "sex": 2,
+        "native-country": 41
+    },
+    "numerical": [
+        "age",
+        "fnlwgt",
+        "education-num",
+        "capital-gain",
+        "capital-loss",
+        "hours-per-week"
+    ],
+    "target": {
+        "name": "income",
+        "type": "binary",
+        "is_categorical": true,
+        "n_classes": 2,
+        "class_distribution": {
+            "0": 37155,
+            "1": 11687
+        }
+    },
+    "tables": {
+        "table": {
+            "columns": {
+                "age": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "workclass": {
+                    "sdtype": "categorical"
+                },
+                "fnlwgt": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "education": {
+                    "sdtype": "categorical"
+                },
+                "education-num": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "marital-status": {
+                    "sdtype": "categorical"
+                },
+                "occupation": {
+                    "sdtype": "categorical"
+                },
+                "relationship": {
+                    "sdtype": "categorical"
+                },
+                "race": {
+                    "sdtype": "categorical"
+                },
+                "sex": {
+                    "sdtype": "categorical"
+                },
+                "capital-gain": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "capital-loss": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "hours-per-week": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "native-country": {
+                    "sdtype": "categorical"
+                },
+                "income": {
+                    "sdtype": "categorical",
+                    "role": "target"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

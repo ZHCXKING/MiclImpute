@@ -1,0 +1,114 @@
+{
+    "name": "Australian",
+    "uci_id": 143,
+    "uci_url": "https://archive.ics.uci.edu/dataset/143",
+    "task": "binary",
+    "description": "澳大利亚信贷审批",
+    "size_category": "small",
+    "n_samples": 690,
+    "n_samples_complete": 690,
+    "n_features": 14,
+    "n_categorical": 8,
+    "n_numerical": 6,
+    "n_missing": 0,
+    "missing_rate": 0.0,
+    "missing_cols": 0,
+    "categorical": [
+        "A1",
+        "A4",
+        "A5",
+        "A6",
+        "A8",
+        "A9",
+        "A11",
+        "A12"
+    ],
+    "categorical_cardinalities": {
+        "A1": 2,
+        "A4": 3,
+        "A5": 14,
+        "A6": 8,
+        "A8": 2,
+        "A9": 2,
+        "A11": 2,
+        "A12": 3
+    },
+    "numerical": [
+        "A2",
+        "A3",
+        "A7",
+        "A10",
+        "A13",
+        "A14"
+    ],
+    "target": {
+        "name": "A15",
+        "type": "binary",
+        "is_categorical": true,
+        "n_classes": 2,
+        "class_distribution": {
+            "0": 383,
+            "1": 307
+        }
+    },
+    "tables": {
+        "table": {
+            "columns": {
+                "A1": {
+                    "sdtype": "categorical"
+                },
+                "A2": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "A3": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "A4": {
+                    "sdtype": "categorical"
+                },
+                "A5": {
+                    "sdtype": "categorical"
+                },
+                "A6": {
+                    "sdtype": "categorical"
+                },
+                "A7": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "A8": {
+                    "sdtype": "categorical"
+                },
+                "A9": {
+                    "sdtype": "categorical"
+                },
+                "A10": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "A11": {
+                    "sdtype": "categorical"
+                },
+                "A12": {
+                    "sdtype": "categorical"
+                },
+                "A13": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "A14": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "A15": {
+                    "sdtype": "categorical",
+                    "role": "target"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

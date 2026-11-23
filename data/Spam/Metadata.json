@@ -1,0 +1,327 @@
+{
+    "name": "Spam",
+    "uci_id": 94,
+    "uci_url": "https://archive.ics.uci.edu/dataset/94",
+    "task": "binary",
+    "description": "垃圾邮件识别",
+    "size_category": "medium",
+    "n_samples": 4601,
+    "n_samples_complete": 4601,
+    "n_features": 57,
+    "n_categorical": 0,
+    "n_numerical": 57,
+    "n_missing": 0,
+    "missing_rate": 0.0,
+    "missing_cols": 0,
+    "categorical": [],
+    "categorical_cardinalities": {},
+    "numerical": [
+        "word_freq_make",
+        "word_freq_address",
+        "word_freq_all",
+        "word_freq_3d",
+        "word_freq_our",
+        "word_freq_over",
+        "word_freq_remove",
+        "word_freq_internet",
+        "word_freq_order",
+        "word_freq_mail",
+        "word_freq_receive",
+        "word_freq_will",
+        "word_freq_people",
+        "word_freq_report",
+        "word_freq_addresses",
+        "word_freq_free",
+        "word_freq_business",
+        "word_freq_email",
+        "word_freq_you",
+        "word_freq_credit",
+        "word_freq_your",
+        "word_freq_font",
+        "word_freq_000",
+        "word_freq_money",
+        "word_freq_hp",
+        "word_freq_hpl",
+        "word_freq_george",
+        "word_freq_650",
+        "word_freq_lab",
+        "word_freq_labs",
+        "word_freq_telnet",
+        "word_freq_857",
+        "word_freq_data",
+        "word_freq_415",
+        "word_freq_85",
+        "word_freq_technology",
+        "word_freq_1999",
+        "word_freq_parts",
+        "word_freq_pm",
+        "word_freq_direct",
+        "word_freq_cs",
+        "word_freq_meeting",
+        "word_freq_original",
+        "word_freq_project",
+        "word_freq_re",
+        "word_freq_edu",
+        "word_freq_table",
+        "word_freq_conference",
+        "char_freq_;",
+        "char_freq_(",
+        "char_freq_[",
+        "char_freq_!",
+        "char_freq_$",
+        "char_freq_#",
+        "capital_run_length_average",
+        "capital_run_length_longest",
+        "capital_run_length_total"
+    ],
+    "target": {
+        "name": "Class",
+        "type": "binary",
+        "is_categorical": true,
+        "n_classes": 2,
+        "class_distribution": {
+            "0": 2788,
+            "1": 1813
+        }
+    },
+    "tables": {
+        "table": {
+            "columns": {
+                "word_freq_make": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_address": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_all": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_3d": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_our": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_over": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_remove": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_internet": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_order": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_mail": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_receive": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_will": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_people": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_report": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_addresses": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_free": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_business": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_email": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_you": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_credit": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_your": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_font": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_000": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_money": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_hp": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_hpl": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_george": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_650": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_lab": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_labs": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_telnet": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_857": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_data": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_415": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_85": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_technology": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_1999": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_parts": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_pm": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_direct": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_cs": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_meeting": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_original": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_project": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_re": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_edu": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_table": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "word_freq_conference": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "char_freq_;": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "char_freq_(": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "char_freq_[": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "char_freq_!": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "char_freq_$": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "char_freq_#": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "capital_run_length_average": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "capital_run_length_longest": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "capital_run_length_total": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "Class": {
+                    "sdtype": "categorical",
+                    "role": "target"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

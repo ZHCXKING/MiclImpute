@@ -1,0 +1,159 @@
+{
+    "name": "Credit",
+    "uci_id": 350,
+    "uci_url": "https://archive.ics.uci.edu/dataset/350",
+    "task": "binary",
+    "description": "信用卡违约预测",
+    "size_category": "large",
+    "n_samples": 30000,
+    "n_samples_complete": 30000,
+    "n_features": 23,
+    "n_categorical": 9,
+    "n_numerical": 14,
+    "n_missing": 0,
+    "missing_rate": 0.0,
+    "missing_cols": 0,
+    "categorical": [
+        "X2",
+        "X3",
+        "X4",
+        "X6",
+        "X7",
+        "X8",
+        "X9",
+        "X10",
+        "X11"
+    ],
+    "categorical_cardinalities": {
+        "X2": 2,
+        "X3": 7,
+        "X4": 4,
+        "X6": 11,
+        "X7": 11,
+        "X8": 11,
+        "X9": 11,
+        "X10": 10,
+        "X11": 10
+    },
+    "numerical": [
+        "X1",
+        "X5",
+        "X12",
+        "X13",
+        "X14",
+        "X15",
+        "X16",
+        "X17",
+        "X18",
+        "X19",
+        "X20",
+        "X21",
+        "X22",
+        "X23"
+    ],
+    "target": {
+        "name": "Y",
+        "type": "binary",
+        "is_categorical": true,
+        "n_classes": 2,
+        "class_distribution": {
+            "0": 23364,
+            "1": 6636
+        }
+    },
+    "tables": {
+        "table": {
+            "columns": {
+                "X1": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X2": {
+                    "sdtype": "categorical"
+                },
+                "X3": {
+                    "sdtype": "categorical"
+                },
+                "X4": {
+                    "sdtype": "categorical"
+                },
+                "X5": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X6": {
+                    "sdtype": "categorical"
+                },
+                "X7": {
+                    "sdtype": "categorical"
+                },
+                "X8": {
+                    "sdtype": "categorical"
+                },
+                "X9": {
+                    "sdtype": "categorical"
+                },
+                "X10": {
+                    "sdtype": "categorical"
+                },
+                "X11": {
+                    "sdtype": "categorical"
+                },
+                "X12": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X13": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X14": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X15": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X16": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X17": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X18": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X19": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X20": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X21": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X22": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "X23": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "Y": {
+                    "sdtype": "categorical",
+                    "role": "target"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

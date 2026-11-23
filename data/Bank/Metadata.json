@@ -1,0 +1,124 @@
+{
+    "name": "Bank",
+    "uci_id": 222,
+    "uci_url": "https://archive.ics.uci.edu/dataset/222",
+    "task": "binary",
+    "description": "银行营销认购预测",
+    "size_category": "large",
+    "n_samples": 45211,
+    "n_samples_complete": 0,
+    "n_features": 16,
+    "n_categorical": 8,
+    "n_numerical": 8,
+    "n_missing": 97335,
+    "missing_rate": 0.13455657915109154,
+    "missing_cols": 5,
+    "categorical": [
+        "job",
+        "marital",
+        "education",
+        "default",
+        "housing",
+        "loan",
+        "contact",
+        "poutcome"
+    ],
+    "categorical_cardinalities": {
+        "job": 11,
+        "marital": 3,
+        "education": 3,
+        "default": 2,
+        "housing": 2,
+        "loan": 2,
+        "contact": 2,
+        "poutcome": 3
+    },
+    "numerical": [
+        "age",
+        "balance",
+        "day_of_week",
+        "month",
+        "duration",
+        "campaign",
+        "pdays",
+        "previous"
+    ],
+    "target": {
+        "name": "y",
+        "type": "binary",
+        "is_categorical": true,
+        "n_classes": 2,
+        "class_distribution": {
+            "0": 39922,
+            "1": 5289
+        }
+    },
+    "tables": {
+        "table": {
+            "columns": {
+                "age": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "job": {
+                    "sdtype": "categorical"
+                },
+                "marital": {
+                    "sdtype": "categorical"
+                },
+                "education": {
+                    "sdtype": "categorical"
+                },
+                "default": {
+                    "sdtype": "categorical"
+                },
+                "balance": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "housing": {
+                    "sdtype": "categorical"
+                },
+                "loan": {
+                    "sdtype": "categorical"
+                },
+                "contact": {
+                    "sdtype": "categorical"
+                },
+                "day_of_week": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "month": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "duration": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "campaign": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "pdays": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "previous": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "poutcome": {
+                    "sdtype": "categorical"
+                },
+                "y": {
+                    "sdtype": "categorical",
+                    "role": "target"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

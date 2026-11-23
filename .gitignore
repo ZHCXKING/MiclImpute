@@ -1,4 +1,6 @@
-.idea
-.venv
-AGENTS.md
+.idea/
+.venv/
+.ruff_cache/
 __pycache__/
+AGENTS.md
+data/**/*.parquet

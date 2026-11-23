@@ -1,0 +1,112 @@
+{
+    "name": "Heart",
+    "uci_id": 45,
+    "uci_url": "https://archive.ics.uci.edu/dataset/45",
+    "task": "binary",
+    "description": "心脏病诊断",
+    "size_category": "small",
+    "n_samples": 303,
+    "n_samples_complete": 297,
+    "n_features": 13,
+    "n_categorical": 8,
+    "n_numerical": 5,
+    "n_missing": 6,
+    "missing_rate": 0.0015232292460015233,
+    "missing_cols": 2,
+    "categorical": [
+        "sex",
+        "cp",
+        "fbs",
+        "restecg",
+        "exang",
+        "slope",
+        "ca",
+        "thal"
+    ],
+    "categorical_cardinalities": {
+        "sex": 2,
+        "cp": 4,
+        "fbs": 2,
+        "restecg": 3,
+        "exang": 2,
+        "slope": 3,
+        "ca": 4,
+        "thal": 3
+    },
+    "numerical": [
+        "age",
+        "trestbps",
+        "chol",
+        "thalach",
+        "oldpeak"
+    ],
+    "target": {
+        "name": "num",
+        "type": "binary",
+        "is_categorical": true,
+        "n_classes": 5,
+        "class_distribution": {
+            "0": 164,
+            "1": 55,
+            "2": 36,
+            "3": 35,
+            "4": 13
+        }
+    },
+    "tables": {
+        "table": {
+            "columns": {
+                "age": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "sex": {
+                    "sdtype": "categorical"
+                },
+                "cp": {
+                    "sdtype": "categorical"
+                },
+                "trestbps": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "chol": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "fbs": {
+                    "sdtype": "categorical"
+                },
+                "restecg": {
+                    "sdtype": "categorical"
+                },
+                "thalach": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "exang": {
+                    "sdtype": "categorical"
+                },
+                "oldpeak": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "slope": {
+                    "sdtype": "categorical"
+                },
+                "ca": {
+                    "sdtype": "categorical"
+                },
+                "thal": {
+                    "sdtype": "categorical"
+                },
+                "num": {
+                    "sdtype": "categorical",
+                    "role": "target"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

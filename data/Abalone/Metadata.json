@@ -1,0 +1,83 @@
+{
+    "name": "Abalone",
+    "uci_id": 1,
+    "uci_url": "https://archive.ics.uci.edu/dataset/1",
+    "task": "regression",
+    "description": "鲍鱼年龄（环数）回归",
+    "size_category": "medium",
+    "n_samples": 4177,
+    "n_samples_complete": 4177,
+    "n_features": 8,
+    "n_categorical": 1,
+    "n_numerical": 7,
+    "n_missing": 0,
+    "missing_rate": 0.0,
+    "missing_cols": 0,
+    "categorical": [
+        "Sex"
+    ],
+    "categorical_cardinalities": {
+        "Sex": 3
+    },
+    "numerical": [
+        "Length",
+        "Diameter",
+        "Height",
+        "Whole_weight",
+        "Shucked_weight",
+        "Viscera_weight",
+        "Shell_weight"
+    ],
+    "target": {
+        "name": "Rings",
+        "type": "regression",
+        "is_categorical": false,
+        "mean": 9.933684462532918,
+        "std": 3.2241690320681284,
+        "min": 1.0,
+        "max": 29.0
+    },
+    "tables": {
+        "table": {
+            "columns": {
+                "Sex": {
+                    "sdtype": "categorical"
+                },
+                "Length": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "Diameter": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "Height": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "Whole_weight": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "Shucked_weight": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "Viscera_weight": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "Shell_weight": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "Rings": {
+                    "sdtype": "numerical",
+                    "role": "target"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}

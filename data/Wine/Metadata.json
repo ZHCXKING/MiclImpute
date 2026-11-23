@@ -1,0 +1,96 @@
+{
+    "name": "Wine",
+    "uci_id": 186,
+    "uci_url": "https://archive.ics.uci.edu/dataset/186",
+    "task": "regression",
+    "description": "葡萄酒质量评分回归",
+    "size_category": "medium",
+    "n_samples": 6497,
+    "n_samples_complete": 6497,
+    "n_features": 11,
+    "n_categorical": 0,
+    "n_numerical": 11,
+    "n_missing": 0,
+    "missing_rate": 0.0,
+    "missing_cols": 0,
+    "categorical": [],
+    "categorical_cardinalities": {},
+    "numerical": [
+        "fixed_acidity",
+        "volatile_acidity",
+        "citric_acid",
+        "residual_sugar",
+        "chlorides",
+        "free_sulfur_dioxide",
+        "total_sulfur_dioxide",
+        "density",
+        "pH",
+        "sulphates",
+        "alcohol"
+    ],
+    "target": {
+        "name": "quality",
+        "type": "regression",
+        "is_categorical": false,
+        "mean": 5.818377712790519,
+        "std": 0.8732552715311248,
+        "min": 3.0,
+        "max": 9.0
+    },
+    "tables": {
+        "table": {
+            "columns": {
+                "fixed_acidity": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "volatile_acidity": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "citric_acid": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "residual_sugar": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "chlorides": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "free_sulfur_dioxide": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "total_sulfur_dioxide": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "density": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "pH": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "sulphates": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "alcohol": {
+                    "sdtype": "numerical",
+                    "computer_representation": "Float"
+                },
+                "quality": {
+                    "sdtype": "numerical",
+                    "role": "target"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}
